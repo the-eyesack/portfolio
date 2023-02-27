@@ -1,0 +1,22 @@
+$display: 'Sofachrome';
+$primary: 'microgramma-extended';
+$dark-purple: #492E9F;
+$light-purple: #7449FF;
+$pink: #C19AB7;
+$brown: #463F3A;
+$space-white: #E0EFDE;
+$space-black: #313132;
+$launch-red: #EE6C4D;
+
+:root {
+  color: $space-white;
+  background: $space-black;
+}
+
+h1 {
+  font-size: 1.875rem;
+  line-height: 2.25rem;
+  padding-top: 5rem;
+  font-family: $display;
+  text-align: center;
+}
