@@ -1,8 +1,3 @@
-<script>
-  import "animate.css";
-</script>
-
-<!--TODO: clean up animation-->
 
 <section>
   <div class="wrapper">
@@ -26,11 +21,11 @@
     position: fixed;
     height: fit-content;
     width: fit-content;
-    bottom: 1.25rem;
+    bottom: 1.25em;
 
     &:hover {
       .link-wrapper {
-        height: 2.5rem;
+        height: 2.5em;
         width: auto;
         opacity: 1;
         transform: scale(1.1, 1.1);
@@ -46,8 +41,8 @@
   .discover-btn {
     border-radius: 9999px;
     display: block;
-    width: 12rem;
-    height: 2.5rem;
+    width: 12em;
+    height: 2.5em;
     opacity: 1;
     overflow: hidden;
     background: $space-white;
@@ -76,12 +71,9 @@
   a {
     font-family: $display;
     color: $space-black;
-    margin-left: 0.25rem;
-    margin-right: 0.25rem;
-    padding-left: 1.25rem;
-    padding-right: 1.25rem;
-    font-size: 1.25rem;
-    line-height: 1.75rem;
+    margin: 0 0.25em 0 0.25em;
+    padding: 0 1.25em 0 1.25em;
+    line-height: 1.75em;
 
     &:hover {
       color: $launch-red;

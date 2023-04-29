@@ -1,5 +1,6 @@
 <script>
   import "animate.css";
+
 </script>
 
 <section id="">
@@ -11,7 +12,7 @@
   </div>
 
   <div class="img-wrapper">
-    <img draggable="false" src="/placeholder.jpg" alt="dog" />
+    <img draggable="false" src="/isac.jpg" alt="dog" />
   </div>
 </section>
 
@@ -22,7 +23,7 @@
     height: 100vh;
   }
   img {
-    height: 24rem;
+    height: 24em;
     position: absolute;
     top: 18rem;
     border-radius: 9999px;
@@ -31,6 +32,8 @@
   span {
     color: transparent;
     background-clip: text;
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
     background-image: linear-gradient(
       to left,
       #492e9f,

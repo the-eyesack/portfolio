@@ -8,6 +8,14 @@ import "../_variables.scss";
 ---
 
 <!DOCTYPE html>
+<script>
+  let windowSize = window.innerWidth;
+  if (windowSize < 1080) {
+    alert(
+      "This website was designed for larger screens. Proceed with caution!"
+    );
+  }
+</script>
 <html lang="en">
   <head>
     <link rel="stylesheet" href="https://use.typekit.net/gqz4uir.css" />
@@ -32,6 +40,8 @@ import "../_variables.scss";
     overflow: hidden;
   }
   * {
-    font-family: "microgramma-extended", sans-serif;
+    font-family: "ofelia-text", serif;
+    font-weight: 500;
+    font-style: normal;
   }
 </style>
